@@ -1,4 +1,4 @@
-**AI ĐỘNG VÀO FILE TRAIN TEST SẼ BỊ BẮN BỎ !**
+**AI ĐỘNG VÀO FILE TRAIN TEST SẼ BỊ BẮN BỎ !**    
 Ae chạy thử code về thì đừng chạy ô số 20 và 21 nhé, nó lquan đến tạo file train test. T sợ mỗi lần chạy nó chia một kiểu khác, mà file được chia đêm qua mình đã deal với nhóm kia rồi í.
 Những gì maitran đã làm đêm qua (ae có thể đọc để tham khảo làm slide):
 - Load các thư viện cần thiết
@@ -12,3 +12,10 @@ Những gì maitran đã làm đêm qua (ae có thể đọc để tham khảo l
 - Tách tệp X, y
 - Chia train-test 8:2. Lưu thành file csv riêng.
   (Sẽ update thêm nếu kịp làm trước t6 tuần này)
+
+Những gì maitran đã làm trước t2 gki:
+- Thêm rất nhiều visualization
+- standardize cột numerical
+- 1hot encode và label encode cột categorical
+- scaling dữ liệu
+- thử các mô hình LR, KNN, DT, RF, SVM
